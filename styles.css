@@ -16,7 +16,7 @@ body {
 }
    
 }
-.navbar ul{
+.navbar-ul {
 list-style-type: none;
 padding: 10px 15px; 
 margin: 0%;
@@ -32,6 +32,10 @@ font-family: 'Courier New', Courier, monospace;
 .navbar a:hover {
     background-color: yellow;
     color: blue;
+}
+
+.main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;  
 }
 
 

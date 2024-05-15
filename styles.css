@@ -2,7 +2,8 @@
 header {
     background-color: blue;
     text-align: center;
-    color: white;
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 footer {
     background-color: blue;
@@ -13,14 +14,26 @@ body {
     text-align: center;
    
 }
+   
+}
+.navbar ul{
+list-style-type: none;
+padding: 10px 15px; 
+margin: 0%;
+}
+.navbar a{
+color: white;
+text-decoration:none;
+padding: 15px;
+display: block;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+.navbar a:hover {
+    background-color: yellow;
+    color: blue;
+}
 
-nav, ul, li {
-    list-style-type: none;
-    
-}
-.navbar {
-    color: white;
-}
 
 
 

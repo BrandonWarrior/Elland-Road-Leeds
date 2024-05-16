@@ -16,7 +16,7 @@ body {
 }
    
 }
-.navbar-ul {
+.navbar ul{
 list-style-type: none;
 padding: 10px 15px; 
 margin: 0%;
@@ -38,9 +38,17 @@ font-family: 'Courier New', Courier, monospace;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;  
 }
 
+ul{
+    list-style-type: none;
+}
 
+.key-facts{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-
+.footer-p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
 

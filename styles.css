@@ -15,7 +15,7 @@ body {
    
 }
    
-}
+
 .navbar ul{
 padding: 10px 15px; 
 margin: 0%;
@@ -35,6 +35,7 @@ font-family: 'Courier New', Courier, monospace;
 
 .main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;  
+
 }
 
 ul{
@@ -49,5 +50,10 @@ ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.body{
+    background-color: yellow;
+    padding: 20px;
+    border: 2px solid blue;
+}
 
 

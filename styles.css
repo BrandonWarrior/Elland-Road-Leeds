@@ -12,6 +12,10 @@ footer {
 }
 body {
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;  
+    background-color: yellow;
+    padding: 20px;
+    border: 2px solid blue;
    
 }
    
@@ -50,10 +54,5 @@ ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.body{
-    background-color: yellow;
-    padding: 20px;
-    border: 2px solid blue;
-}
 
 

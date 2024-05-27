@@ -17,6 +17,9 @@ footer {
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: yellow;
@@ -55,11 +58,11 @@ ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-home-img {
+.home-img {
     border: 3px solid blue;
     border-radius: 10px;
-    width: 100%;
-    height: auto
+    width: 900px;
+    height: 600px
 }
 
 .content-wrapper {
@@ -68,14 +71,16 @@ home-img {
     gap: 20px;
 }
 
-.img-kop .img-south-stand {
-    width: 100px;
-    height: 200px;
+
+.stadium-img {
+    width: 250px;
+    height: auto;
     border: 3px solid blue;
     border-radius: 10px;
     float: left;
 }
 
-.kop .south-stand {
+.stadium-info {
     float: right;
+    color: blue;
 }

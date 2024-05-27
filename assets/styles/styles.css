@@ -1,8 +1,14 @@
-header {
+header 
+{
+    padding: 0 1rem;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0;
     background-color: blue;
     text-align: center;
     color: yellow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 footer {
@@ -61,8 +67,8 @@ ul {
 .home-img {
     border: 3px solid blue;
     border-radius: 10px;
-    width: 900px;
-    height: 600px
+    width: 100%;
+    height: auto;
 }
 
 .content-wrapper {

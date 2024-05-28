@@ -11,11 +11,6 @@ header
 
 }
 
-
-.social-icon {
-    color: yellow;
-}
-
 body {
     min-height: 100vh;
     display: flex;
@@ -39,6 +34,7 @@ body {
     display: block;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    width: 100%;
 }
 
 .navbar a:hover {
@@ -70,28 +66,37 @@ ul {
 }
 
 #photos{
+    display: flex;
     flex: 25%;
-    max-width: 50%;
+    max-width: 25%;
     padding: 0 4px;
+    margin: 10px;
+    
   }
   
   #photos img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    margin: 50px;
   }
 
 <!-- footer-->
+
 footer {
     background-color: blue;
     text-align: center;
     color: white;
 }
 
+.social-icon {
+    color: yellow;
+}
 
 .footer-p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 
 @media screen and (max-width: 800px) {
     #photos {

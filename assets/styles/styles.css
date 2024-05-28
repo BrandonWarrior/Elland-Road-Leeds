@@ -1,3 +1,4 @@
+
 header 
 {
     padding: 0 1rem;
@@ -71,22 +72,8 @@ ul {
     height: auto;
 }
 
-.content-wrapper {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-}
+<!-- gallery page --> 
 
 
-.stadium-img {
-    width: 250px;
-    height: auto;
-    border: 3px solid blue;
-    border-radius: 10px;
-    float: left;
-}
 
-.stadium-info {
-    float: right;
-    color: blue;
-}
+

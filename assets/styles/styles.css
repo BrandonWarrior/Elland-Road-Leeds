@@ -1,14 +1,9 @@
-header 
-{
+header {
     padding: 0 1rem;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0;
     background-color: blue;
     text-align: center;
     color: yellow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
 body {
@@ -24,7 +19,7 @@ body {
 
 .navbar ul {
     padding: 10px 15px;
-    margin: 0%;
+    margin: 0; /* Corrected */
 }
 
 .navbar a {
@@ -57,42 +52,27 @@ ul {
     height: auto;
 }
 
-<!-- gallery page--> 
-
-#gallery{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+#gallery {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
 }
 
-#photos{
-    display: flex;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-    margin: 10px;
-    
-  }
-  
-  #photos img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    margin: 50px;
-    border: 2px;
-    border-color: blue;
-  }
+#gallery img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+}
 
-  <!--Matchday Memories Styling-->
-.matchdayphotos{
+.matchdayphotos {
     position: relative;
     max-width: 30%;
     max-height: 30%;
 }
 
-<!-- footer-->
-
 footer {
+    padding: 1rem;
     background-color: blue;
     text-align: center;
     color: white;
@@ -100,32 +80,34 @@ footer {
 
 .social-icon {
     color: yellow;
+    fill: yellow;
 }
 
-.footer-p {
+a {
+    text-decoration: none;
+}
+
+.copyright-text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
 }
-
 
 @media screen and (max-width: 800px) {
     #photos {
-      flex: 50%;
-      max-width: 50%;
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
     }
-  }
-
-  #photos {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
+}
 
 @media screen and (max-width: 600px) {
-    #photos {
-      flex: 100%;
-      max-width: 100%;
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr;
     }
-  }
 
-
-
+    #gallery img {
+        margin: 0 auto;
+    }
+}

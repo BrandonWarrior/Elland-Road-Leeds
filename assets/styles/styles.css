@@ -1,8 +1,8 @@
 header {
     padding: 0 1rem;
-    background-color: blue;
+    background-color: #0000FF;
     text-align: center;
-    color: yellow;
+    color: #FFFF00;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -12,9 +12,9 @@ body {
     flex-direction: column;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: yellow;
+    background-color: #FFFF00;
     padding: 20px;
-    border: 2px solid blue;
+    border: 2px solid #0000FF;
 }
 
 .navbar ul {
@@ -33,24 +33,32 @@ body {
 }
 
 .navbar a:hover {
-    background-color: yellow;
-    color: blue;
+    background-color: #FFFF00;
+    color: #0000FF;
 }
 
 ul {
     list-style-type: none;
 }
 
+/*home page styling*/
+
 .key-facts {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .home-img {
-    border: 3px solid blue;
+    border: 3px solid #0000FF;
     border-radius: 10px;
     width: 100%;
     height: auto;
 }
+
+.home-text{
+    color: #0000FF;
+}
+
+/*gallery page styling*/
 
 #gallery {
     padding: 2rem 0;
@@ -63,7 +71,10 @@ ul {
     width: 300px;
     height: 100%;
     object-fit: cover;
+
 }
+
+/*matchday memories styling*/
 
 .matchdayphotos {
     position: relative;
@@ -71,16 +82,18 @@ ul {
     max-height: 30%;
 }
 
+/*footer stlying*/
+
 footer {
     padding: 1rem;
-    background-color: blue;
+    background-color: #0000FF;
     text-align: center;
     color: white;
 }
 
 .social-icon {
-    color: yellow;
-    fill: yellow;
+    color: #FFFF00;
+    fill: #FFFF00;
 }
 
 a {
@@ -92,6 +105,8 @@ a {
     margin: 0 !important;
     padding: 0 !important;
 }
+
+/*media screen stlying*/
 
 @media screen and (max-width: 800px) {
     #photos {

@@ -8,36 +8,37 @@ header {
     justify-content: space-between;
     align-items: baseline;
     padding: auto;
+    z-index: 99;
 }
 
-header a{
+header a {
     text-decoration: none;
     color: #0000FF
 }
 
-h1{
+h1 {
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #0000FF;
-    }
+}
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
 
-#menu > li{
-margin-bottom: 1em;
+#menu>li {
+    margin-bottom: 1em;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #0000FF;
 }
 
 /* navbar styles with dropdown toggle*/
-nav{
+nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
@@ -49,22 +50,23 @@ nav{
 }
 
 /* nav toggle */
-#nav-toggle:checked~nav{
-display: block;
+#nav-toggle:checked~nav {
+    display: block;
 }
 
-#nav-toggle{
+#nav-toggle {
     display: none;
 }
 
-.nav-toggle-label{
+.nav-toggle-label {
     font-size: 2rem;
 }
+
+
 
 /*home page styling*/
 
 body {
-    min-height: 100vh;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -142,23 +144,42 @@ a {
 
 /*media query: tablets and larger*/
 @media screen and (min-width: 768px) {
-nav{
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
 }
-#menu{
-    display: flex;
+
+/*Large devices laptops and desktops*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #0000FF;
+    }
 }
-#menu > li {
-    padding-left: 1rem;
-}
-.nav-toggle-label{
-    display: none;
-}
-}
+
+
 
 @media screen and (max-width: 600px) {
     #gallery {
@@ -179,4 +200,3 @@ nav{
         width: 100%;
     }
 }
-

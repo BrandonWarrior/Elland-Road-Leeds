@@ -8,6 +8,9 @@ header {
     justify-content: space-between;
     align-items: baseline;
     padding: auto;
+    top: 0;
+    left: 0;
+    position: fixed;
 }
 
 header a {
@@ -39,7 +42,7 @@ h1 {
 /* navbar styles with dropdown toggle*/
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #FFFF00;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -49,6 +52,7 @@ nav {
 }
 
 /* nav toggle */
+
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -65,6 +69,10 @@ nav {
 color:#0000FF
 }
 
+main {
+    margin-top: 90px;
+}
+
 body {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -74,6 +82,10 @@ body {
 
 .key-facts {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li{
+    list-style-type: none;
 }
 
 .home-img {
@@ -134,6 +146,9 @@ a {
 
 /*media query: tablets and larger*/
 @media screen and (min-width: 768px) {
+   main{
+    margin-top: 100px;
+   }
     nav {
         display: block;
         position: relative;
@@ -189,7 +204,9 @@ a {
     #menu a:hover {
         border-bottom: 1px solid #0000FF;
     }
-
+main{
+    margin-top: 100px;
+}
 #gallery {
     padding: 2rem 0;
     display: grid;

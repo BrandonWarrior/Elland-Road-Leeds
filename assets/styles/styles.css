@@ -62,6 +62,10 @@ nav {
     font-size: 2rem;
 }
 
+.menu-icon{
+color:#0000FF
+}
+
 body {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

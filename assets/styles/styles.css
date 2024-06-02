@@ -8,7 +8,6 @@ header {
     justify-content: space-between;
     align-items: baseline;
     padding: auto;
-    z-index: 99;
 }
 
 header a {
@@ -29,7 +28,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -90,13 +89,6 @@ body {
 
 /*gallery page styling*/
 
-#gallery {
-    padding: 2rem 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-}
-
 #gallery img {
     width: 300px;
     height: 100%;
@@ -105,20 +97,17 @@ body {
     margin: auto
 }
 
-#gallery img:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: 1s ease;
-}
-
 /*matchday memories styling*/
 
-.matchdayphotos {
-    width: 700;
-    height: auto;
+.matchday-photos{
+    width: 100%;
+    height: 300%;
+    border: 2px solid #0000FF;
 }
 
+.matchday-text{
+    color: #0000FF;
+}
 /*footer stlying*/
 
 footer {
@@ -157,7 +146,7 @@ a {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -171,6 +160,28 @@ a {
         margin: 0 0.5rem;
     }
 
+    #photos {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    /*gallery page*/
+    #gallery {
+        padding: 2rem 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin: auto;
+    }
+    #gallery img {
+        width: 300px;
+        height: 100%;
+        object-fit: cover;
+        transition: 1s ease;
+        margin: auto
+    }
+
 }
 
 /*Large devices laptops and desktops*/
@@ -178,26 +189,29 @@ a {
     #menu a:hover {
         border-bottom: 1px solid #0000FF;
     }
-  body{  margin-top: ;
-  }
+
+#gallery {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: auto;
+}
+#gallery img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s ease;
+    margin: auto
+}
+#gallery img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
 }
 
-/*photos media screens*/
-@media screen and (max-width: 600px) {
-    #gallery {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 
-    #gallery img {
-        margin: 0 auto;
-    }
-}
 
-@media screen and (max-width: 800px) {
-    #photos {
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
-    }
-}
+

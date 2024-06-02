@@ -1,47 +1,74 @@
+/* Header */
 header {
-    padding: 0 1rem;
-    background-color: #0000FF;
-    text-align: center;
-    color: #FFFF00;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #FFFF00;
-    padding: 20px;
-    border: 2px solid #0000FF;
-}
-
-.navbar ul {
-    padding: 10px 15px;
-    margin: 0; /* Corrected */
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     width: 100%;
+    box-shadow: 0 2px 2px #000;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: auto;
 }
 
-.navbar a:hover {
-    background-color: #FFFF00;
+header a{
+    text-decoration: none;
+    color: #0000FF
+}
+
+h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     color: #0000FF;
-}
+    }
 
-ul {
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
     list-style-type: none;
 }
 
+#menu > li{
+margin-bottom: 1em;
+}
+
+.active{
+    border-bottom: 1px solid #0000FF;
+}
+
+/* navbar styles with dropdown toggle*/
+nav{
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #000;
+    display: none;
+    top: 100%;
+}
+
+/* nav toggle */
+#nav-toggle:checked~nav{
+display: block;
+}
+
+#nav-toggle{
+    display: none;
+}
+
+.nav-toggle-label{
+    font-size: 2rem;
+}
+
 /*home page styling*/
+
+body {
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
 
 .key-facts {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -54,7 +81,7 @@ ul {
     height: auto;
 }
 
-.home-text{
+.home-text {
     color: #0000FF;
 }
 
@@ -72,21 +99,21 @@ ul {
     height: 100%;
     object-fit: cover;
     transition: 1s ease;
-    margin:auto
+    margin: auto
 }
 
-#gallery img:hover{
--webkit-transform: scale(1.2);
--ms-transform: scale(1.2);
-transform: scale(1.2);
-transition: 1s ease;
+#gallery img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
 }
 
 /*matchday memories styling*/
 
 .matchdayphotos {
-object-fit: contain;
- 
+    object-fit: contain;
+
 }
 
 /*footer stlying*/
@@ -113,14 +140,24 @@ a {
     padding: 0 !important;
 }
 
-/*media screen stlying*/
-
-@media screen and (max-width: 800px) {
-    #photos {
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
-    }
+/*media query: tablets and larger*/
+@media screen and (min-width: 768px) {
+nav{
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+}
+#menu{
+    display: flex;
+}
+#menu > li {
+    padding-left: 1rem;
+}
+.nav-toggle-label{
+    display: none;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -133,3 +170,13 @@ a {
         margin: 0 auto;
     }
 }
+
+
+@media screen and (max-width: 800px) {
+    #photos {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+}
+

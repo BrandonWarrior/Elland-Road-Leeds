@@ -207,6 +207,7 @@ a {
 main{
     margin-top: 100px;
 }
+/*gallery */
 #gallery {
     padding: 2rem 0;
     display: grid;
@@ -226,6 +227,12 @@ main{
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     transition: 1s ease;
+}
+
+/*matchday memories*/
+.matchday-photos{
+    width: 80%;
+    height: 400px;
 }
 }
 

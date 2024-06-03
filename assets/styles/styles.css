@@ -12,6 +12,12 @@ header {
     left: 0;
     position: fixed;
 }
+header{
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+}
 
 header a {
     text-decoration: none;
@@ -75,7 +81,9 @@ main {
 
 body {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
 }
 
 /*home page styling*/

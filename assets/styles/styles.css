@@ -107,6 +107,15 @@ ul li {
     font-size: 200%;
 }
 
+.home-box{
+    border: #0000FF solid 5px;b
+}
+
+.home-img-padding{
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
 /*gallery page styling*/
 
 #gallery img {
@@ -117,6 +126,19 @@ ul li {
     margin: auto
 }
 
+#gallery{
+    border: #0000FF solid 5px;b
+}
+
+#video{
+    border: #0000FF solid 5px;b
+    width: 100%;
+}
+
+.video{
+    width: 100%;
+    height: 200px;
+}
 /*matchday memories styling*/
 
 .matchday-photos {
@@ -218,6 +240,10 @@ a {
         margin: auto
     }
 
+    .video{
+    width: 100%;
+    height: 600px;
+    }
 }
 
 /*Large devices laptops and desktops*/
@@ -252,6 +278,11 @@ a {
         -ms-transform: scale(1.2);
         transform: scale(1.2);
         transition: 1s ease;
+    }
+
+    .video{
+        width: 100%;
+        height: 800px;
     }
 
     /*matchday memories*/

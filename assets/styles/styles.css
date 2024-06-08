@@ -45,6 +45,7 @@ h1 {
 }
 
 /* navbar styles with dropdown toggle*/
+
 nav {
     position: absolute;
     background-color: #FFFF00;
@@ -86,13 +87,6 @@ main {
 }
 
 /*home page styling*/
-
-.key-facts {
-    text-align: center;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
 
 ul li {
     list-style-type: none;
@@ -193,6 +187,7 @@ a {
 }
 
 /*media query: tablets and larger*/
+
 @media screen and (min-width: 768px) {
     main {
         margin-top: 100px;
@@ -231,6 +226,7 @@ a {
     }
 
     /*gallery page*/
+
     #gallery {
         padding: 2rem 0;
         display: grid;
@@ -254,6 +250,7 @@ a {
 }
 
 /*Large devices laptops and desktops*/
+
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #0000FF;

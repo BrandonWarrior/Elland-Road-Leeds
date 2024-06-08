@@ -88,7 +88,10 @@ main {
 /*home page styling*/
 
 .key-facts {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 ul li {

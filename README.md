@@ -21,14 +21,25 @@ Explore the various sections of the page to uncover the matchday memories and a 
 
 
 ###The Header
+
 - The header shows the name of the website and te navigation. 
 
 ###The Footer
-- The footer has a background color of blue with 
+- The footer has a background color of blue #0000FF that contrast with icons and text in yellow #FFFF0.
+
+- The social links uses clickable icons for each social media logo that links to each page in a seperate window. 
 
 ##Matchday Memories
 
+- The Matchday Memories page gives the user infomation and historic facts about the sport events held at the venue over the years. 
+
+- Uses images from the day of the events.
+
 ##The Gallery
+
+- The Gallery page gives the user a visual tour of the what is inside and around the ground.
+
+- Has a video link to showcase the atmosphere at a sold out event.
 
 ##Validator Testing 
 

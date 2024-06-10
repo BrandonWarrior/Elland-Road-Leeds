@@ -1,16 +1,16 @@
-#Welcome To Elland Road
+# Welcome To Elland Road
 
 Welcome to the Elland Road history page project! This project is dedicated to providing a comprehensive history and information about Elland Road, the iconic football stadium located in Leeds, West Yorkshire, England. Home to Leeds United Football Club since the club's formation in 1919, Elland Road is steeped in rich history and tradition.
 
-Our goal is to create an informative and engaging resource for fans, historians, and anyone interested in learning more about this legendary stadium.
+My goal is to create an informative and engaging resource for fans, historians, and anyone interested in learning more about this legendary stadium.
 
 Explore the various sections of the page to uncover the matchday memories and a gallery showcasing the different loactions around the stadium
 
 ![Am I Responsive Screenshot](assets/website-images/am-i-responsive.png)
 
-##Features
+## Features
 
-###Navigation
+### Navigation
 - Featured at the top of the page, The navigation shows the page name: Elland Road that links to top of the home page.
 
 - The other navigation links are to the right: Home, Matchday Memories, Gallery, which links to different pages within the project.
@@ -20,18 +20,18 @@ Explore the various sections of the page to uncover the matchday memories and a 
 -  The navigation tells the name of the website and makes the different sections of infomation easy to find.  
 
 
-###The Header
+### The Header
 
 - The header shows the name of the website and te navigation. 
 
-###The Footer
+### The Footer
 - The footer has a background color of blue #0000FF that contrast with icons and text in yellow #FFFF0.
 
 - The social links uses clickable icons for each social media logo that links to each page in a seperate window. 
 
 ![Header Screenshot](assets/website-images/home.png)
 
-##Matchday Memories
+## Matchday Memories
 
 - The Matchday Memories page gives the user infomation and historic facts about the sport events held at the venue over the years. 
 
@@ -40,7 +40,7 @@ Explore the various sections of the page to uncover the matchday memories and a 
 ![Matchday Memories Screenshot](assets/website-images/matchday-memories.png)
 
 
-##The Gallery
+## The Gallery
 
 - The Gallery page gives the user a visual tour of the what is inside and around the ground.
 
@@ -48,9 +48,7 @@ Explore the various sections of the page to uncover the matchday memories and a 
 
 ![Gallery Screenshot](assets/website-images/gallery.png)
 
-##Testing
-
-##Validator
+## Validator
 
 - No HTML errors were returned when passing through the W3C Validator.
 
@@ -58,26 +56,26 @@ Explore the various sections of the page to uncover the matchday memories and a 
 
 ![Lighthouse Screenshot](assets/website-images/lighthouse.png)
 
-##Unfixed Bugs
+## Unfixed Bugs
 - No unfixed bugs 
 
-##Deployment
+## Deployment and Testing
 - I have tested that this page works on different browsers: Chrome, Firefox and Safari.
 
 - I have tested that all external links and navigation works on all browsers.
-##Credits
+## Credits
 
-###Media
+### Media
 
-####Images Credit:
+#### Images Credit:
 - LeedsUnited.com
--LeedsRhinos.com
+- LeedsRhinos.com
 
-####Video Credit:
+#### Video Credit:
 - Youtube: LUFC Lewis
 
-###Header:
--Code for header and navigation from the Love Running project.
+### Header:
+- Code for header and navigation from the Love Running project.
 
 
 

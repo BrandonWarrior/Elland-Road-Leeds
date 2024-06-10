@@ -6,7 +6,7 @@ Our goal is to create an informative and engaging resource for fans, historians,
 
 Explore the various sections of the page to uncover the matchday memories and a gallery showcasing the different loactions around the stadium
 
-![Am I Responsive Screenshot](assets/website-images/Screenshot_9-6-2024_17713_ui.dev.jpeg)
+![Am I Responsive Screenshot](assets/website-images/am-i-responsive.png)
 
 ##Features
 
@@ -29,11 +29,16 @@ Explore the various sections of the page to uncover the matchday memories and a 
 
 - The social links uses clickable icons for each social media logo that links to each page in a seperate window. 
 
+![Header Screenshot](assets/website-images/home.png)
+
 ##Matchday Memories
 
 - The Matchday Memories page gives the user infomation and historic facts about the sport events held at the venue over the years. 
 
 - Uses images from the day of the events.
+
+![Matchday Memories Screenshot](assets/website-images/matchday-memories.png)
+
 
 ##The Gallery
 
@@ -41,12 +46,38 @@ Explore the various sections of the page to uncover the matchday memories and a 
 
 - Has a video link to showcase the atmosphere at a sold out event.
 
-##Validator Testing 
+![Gallery Screenshot](assets/website-images/gallery.png)
+
+##Testing
+
+##Validator
+
+- No HTML errors were returned when passing through the W3C Validator.
+
+- No CSS errors were returned when passing through the offical (jigsaw) validator.
+
+![Lighthouse Screenshot](assets/website-images/lighthouse.png)
+
+##Unfixed Bugs
+- No unfixed bugs 
 
 ##Deployment
+- I have tested that this page works on different browsers: Chrome, Firefox and Safari.
 
+- I have tested that all external links and navigation works on all browsers.
 ##Credits
 
+###Media
+
+####Images Credit:
+- LeedsUnited.com
+-LeedsRhinos.com
+
+####Video Credit:
+- Youtube: LUFC Lewis
+
+###Header:
+-Code for header and navigation from the Love Running project.
 
 
 

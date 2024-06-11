@@ -117,8 +117,8 @@ ul li {
 /*gallery page styling*/
 
 #hidden-header {
-    visibility: hidden;
-}
+        font-size: 200%;
+    }
 
 #gallery img {
     width: 300px;

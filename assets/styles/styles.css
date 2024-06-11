@@ -88,10 +88,6 @@ main {
     font-style: normal;
 }
 
-.page-header{
-    font-size: 75px;
-}
-
 /*home page styling*/
 
 ul li {
@@ -259,6 +255,10 @@ a {
     main {
         margin-top: 100px;
     }
+
+    .page-header{
+        font-size: 75px;
+    }    
 
     .home-img {
         width: 80%;

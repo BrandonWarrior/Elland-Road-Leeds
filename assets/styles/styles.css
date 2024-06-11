@@ -88,6 +88,10 @@ main {
     font-style: normal;
 }
 
+.page-header{
+    font-size: 75px;
+}
+
 /*home page styling*/
 
 ul li {
@@ -116,9 +120,9 @@ ul li {
 
 /*gallery page styling*/
 
-#hidden-header {
-        font-size: 200%;
-    }
+.gallery-header {
+    font-size: 200%;
+}
 
 #gallery img {
     width: 300px;

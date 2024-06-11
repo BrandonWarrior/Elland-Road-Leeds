@@ -6,7 +6,7 @@ My goal is to create an informative and engaging resource for fans, historians, 
 
 Explore the various sections of the page to uncover the matchday memories and a gallery showcasing the different loactions around the stadium
 
-![Am I Responsive Screenshot](assets/website-images/am-i-responsive.png)
+![Am I Responsive Screenshot](assets/website-images/am-i-responsive-new.png)
 
 ## Features
 
@@ -29,7 +29,7 @@ Explore the various sections of the page to uncover the matchday memories and a 
 
 - The social links uses clickable icons for each social media logo that links to each page in a seperate window. 
 
-![Header Screenshot](assets/website-images/home.png)
+![Header Screenshot](assets/website-images/home-new.png)
 
 ## Matchday Memories
 
@@ -37,7 +37,7 @@ Explore the various sections of the page to uncover the matchday memories and a 
 
 - Uses images from the day of the events.
 
-![Matchday Memories Screenshot](assets/website-images/matchday-memories.png)
+![Matchday Memories Screenshot](assets/website-images/matchday-mems-new.png)
 
 
 ## The Gallery
@@ -46,7 +46,7 @@ Explore the various sections of the page to uncover the matchday memories and a 
 
 - Has a video link to showcase the atmosphere at a sold out event.
 
-![Gallery Screenshot](assets/website-images/gallery.png)
+![Gallery Screenshot](assets/website-images/gallery-new.png)
 
 ## Validator
 
@@ -54,7 +54,7 @@ Explore the various sections of the page to uncover the matchday memories and a 
 
 - No CSS errors were returned when passing through the offical (jigsaw) validator.
 
-![Lighthouse Screenshot](assets/website-images/lighthouse.png)
+![Lighthouse Screenshot](assets/website-images/lighthouse-new.png)
 
 ## Unfixed Bugs
 - No unfixed bugs 

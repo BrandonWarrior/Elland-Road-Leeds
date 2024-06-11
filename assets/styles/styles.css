@@ -171,8 +171,13 @@ footer {
 
 footer p {
     color: #FFFF00;
+    text-align: center;
 }
 
+footer ul li{
+    list-style-type: none;
+    color: #FFFF00;
+}
 .social-icon {
     color: #FFFF00;
     fill: #FFFF00;

@@ -69,7 +69,7 @@ Explore the various sections of the page to uncover the matchday memories and a 
 
 #### Images Credit:
 - LeedsUnited.com
-- LeedsRhinos.com
+- Leeds Rhinos Youtube
 
 #### Video Credit:
 - Youtube: LUFC Lewis

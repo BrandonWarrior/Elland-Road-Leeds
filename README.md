@@ -54,20 +54,67 @@ Explore the various sections of the page to uncover the matchday memories and a 
 
 - No CSS errors were returned when passing through the offical (jigsaw) validator.
 
-![Lighthouse Screenshot](assets/website-images/lighthouse-new.png)
-
-## Unfixed Bugs
-- No unfixed bugs 
-
-## Deployment and Testing
+### Testing
 - I have tested that this page works on different browsers: Chrome, Firefox and Safari.
 
 - I have tested that all external links and navigation works on all browsers.
+
+##Lighthouse
+- Desktop lighthouse scores for each page:
+
+![Lighthouse Desktop Screenshot]()
+![Lighthouse Desktop Screenshot]()
+![Lighthouse Desktop Screenshot]()
+- 
+
+- Mobile lighthouse scores for each page:
+
+![Lighthouse Desktop Screenshot]()
+![Lighthouse Desktop Screenshot]()
+![Lighthouse Desktop Screenshot]()
+- 
+
+## Bugs and Fixes
+### Bug 
+- An issue where the header was overlapping over the top of my main content on the page. 
+### Fix 
+- To ensure the content is properly positioned below the header, apply margin-top: 90px for mobile devices. For larger devices, increase the margin to 100px using media queries for screens with a minimum width of 768px and 992px:
+
+### Bug
+- Color not applying to social icons. 
+### Fix
+Discovering a typo to the social-icon class meant that the styles were not applying. Once corrected the social-icons colors were applied. 
+
+### Bug
+- Menu icon not appearing on mobile devices.
+### Fix
+- Discovering not adding a </label> tag to the end of the <label> meant that the menu icon was not appearing. By adding the </label> tag meant that the menu icon was working on mobile devices.
+
+### Bug
+Poor Lighthouse performance scores.
+### Fix
+Due to images being too big I resized them using https://redketchup.io/image-resizer and changed them from a JPEG file to a webp file. After this i then compressed the images using https://tinypng.com/. This boosted my lighthouse scores on Desktop and mobile devices.
+
+## Testing
+- I have tested that this page works on different browsers: Chrome, Firefox and Safari.
+
+- I have tested that all external links and navigation works on all browsers.
+
+###Lighthouse
+
+## Deployment 
+I deployed the page to GitHub Pages using the following steps:
+
+- Navigate to the project's repository and click on the Settings tab.
+- Select the Pages option from the menu on the left.
+- In the Source section, choose the Main branch from the drop-down menu and click Save.
+- A confirmation message will appear, indicating a successful deployment to GitHub Pages and providing the live URL.
+
+You can find the live site via the following URL - https://brandonwarrior.github.io/Elland-Road-Leeds/
 ## Credits
 
-### Media
-
 #### Images Credit:
+- The images from the home page and the gallery page are taken by myself Brandon Warrior.
 - LeedsUnited.com
 - Youtube: Leeds Rhinos
 
@@ -75,7 +122,7 @@ Explore the various sections of the page to uncover the matchday memories and a 
 - Youtube: LUFC Lewis
 
 ### Header:
-- Code for header and navigation from the Love Running project.
+- The code to make the header and navigation is from the Love Running project.
 
 
 

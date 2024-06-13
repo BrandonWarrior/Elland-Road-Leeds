@@ -96,10 +96,19 @@ Explore the various sections of the page to uncover the matchday memories and a 
 ![Lighthouse Desktop Screenshot](assets/docs/mobile-lightouse-matchdaymems.PNG)
 ![Lighthouse Desktop Screenshot](assets/docs/mobile-lightouse-gallery.PNG)
 
-As you can see my scores did not change much apart from the gallery page. This is due to the Youtube video link.
+- As you can see my scores did not change much apart from the gallery page. This is due to the Youtube video link.
+
+- However in incognito the best practices score is 100 suggesting that the cookies and google fonts is impacting the score. 
+
+![Lighthouse Desktop Screenshot](assets/docs/incognito-gallery.PNG)
+
+- The mobile scores for my site were all green and similar score.
+
+![Lighthouse Desktop Screenshot](assets/docs/mobile-incognito.PNG)
 
 
 ## Bugs and Fixes
+
 ### Bug 1
 - An issue where the header was overlapping over the top of my main content on the page. 
 ### Fix 

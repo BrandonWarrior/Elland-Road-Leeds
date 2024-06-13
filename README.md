@@ -1,11 +1,12 @@
 # Welcome To Elland Road
 
+Welcome to the Elland Road History Page Project! This project is a heartfelt tribute to Elland Road, the cherished football stadium in Leeds, West Yorkshire, England. As the beloved home of Leeds United Football Club since 1919, Elland Road is filled with a rich history and treasured traditions that span over a century.
 
-Welcome to the Elland Road History Page Project! This project is a heartfelt tribute to Elland Road, the famous football stadium in Leeds, West Yorkshire, England. As the home of Leeds United Football Club since its start in 1919, Elland Road has a rich history and many traditions.
+Our goal is to create an informative and engaging resource for fans, historians, and anyone who loves learning about this legendary stadium. We aim to celebrate every unforgettable moment, thrilling match, and heartwarming story that makes Elland Road so special. From the passionate roars of the crowd during historic victories to the quiet moments of reflection in the stands, every corner of Elland Road has a story to tell.
 
-My goal is to create an informative and engaging resource for fans, historians, and anyone interested in learning about this legendary stadium. I want to celebrate every moment, match, and story that makes Elland Road special.
+Explore the different sections of the page to relive matchday memories and view a gallery showcasing various unique locations around the stadium. Learn about the unforgettable events that have taken place within the stadium.
 
-Explore the different sections of the page to relive matchday memories and view a gallery showcasing various locations around the stadium. Whether you're looking back on past glories or discovering new stories, we hope this project brings you the same love and pride that Elland Road inspires in all of us.
+Whether you're reminiscing about past glories or discovering new stories, we hope this project fills you with the same love and pride that Elland Road inspires in all of us. Join me on this journey through time and immerse yourself in the heart and soul of Elland Road, a place where history and passion come alive.
 
 ![Am I Responsive Screenshot](assets/docs/am-i-responsive.PNG)
 
@@ -45,7 +46,6 @@ For the color scheme, I wanted to go with something that related to the color sc
 
 ![Footer Screenshot](assets/docs/footer.PNG)
 
-
 ## Home Page 
 
 - The home page gives a brief welcome message along with a photo of elland road and some additional facts below. 
@@ -75,7 +75,6 @@ For the color scheme, I wanted to go with something that related to the color sc
 - Has a video link to showcase the atmosphere at a sold out event.
 
 ![Gallery Screenshot](assets/docs/gallery-two.PNG)
-
 
 ## Validator
 
@@ -114,7 +113,6 @@ For the color scheme, I wanted to go with something that related to the color sc
 - The mobile scores for my site were all green and similar in score.
 
 ![Lighthouse Desktop Screenshot](assets/docs/mobile-incognito.PNG)
-
 
 ## Bugs and Fixes
 

@@ -4,9 +4,15 @@ Welcome to the Elland Road history page project! This project is dedicated to pr
 
 My goal is to create an informative and engaging resource for fans, historians, and anyone interested in learning more about this legendary stadium.
 
-Explore the various sections of the page to uncover the matchday memories and a gallery showcasing the different loactions around the stadium
+Explore the various sections of the page to uncover the matchday memories and a gallery showcasing the different loactions around the stadium. 
 
 ![Am I Responsive Screenshot](assets/docs/am-i-responsive.PNG)
+
+## Color schemes 
+
+For the color scheme, I wanted to go with something that related to the color scheme of Elland Road itself. I selected the colors of blue, yellow and white. I used the following color grid created on https://contrast-grid.eightshapes.com/ to check the contrast scores. This grid allowed me to make sure the website was accessable to all.
+
+![Color Scheme](assets/docs/color-scheme.PNG)
 
 ## Features
 

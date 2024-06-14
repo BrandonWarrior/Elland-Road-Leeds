@@ -8,13 +8,13 @@ Explore the different sections of the page to relive matchday memories and view 
 
 Whether you're reminiscing about past glories or discovering new stories, we hope this project fills you with the same love and pride that Elland Road inspires in all of us. Join me on this journey through time and immerse yourself in the heart and soul of Elland Road, a place where history and passion come alive.
 
-![Am I Responsive Screenshot](assets/docs/am-i-responsive.PNG)
+![Am I Responsive Screenshot](docs/images/am-i-responsive.PNG)
 
 ## Color schemes 
 
 For the color scheme, I wanted to go with something that related to the color scheme of Elland Road itself. I selected the colors of blue, yellow and white. I used the following color grid created on https://contrast-grid.eightshapes.com/ to check the contrast scores. This grid allowed me to make sure the website was accessable to all.
 
-![Color Scheme](assets/docs/color-scheme.PNG)
+![Color Scheme](docs/images/color-scheme.PNG)
 
 ## Features
 
@@ -35,9 +35,9 @@ For the color scheme, I wanted to go with something that related to the color sc
 
 - Is clear and easy to understand. 
 
-![Header Screenshot](assets/docs/header-and-nav.PNG)
+![Header Screenshot](docs/images/header-and-nav.PNG)
 
-![Header Screenshot](assets/docs/mobile-header-nav.PNG)
+![Header Screenshot](docs/images/mobile-header-nav.PNG)
 
 ### The Footer
 - The footer has a background color of blue #0000FF that contrast with icons and text in yellow #FFFF0.
@@ -46,7 +46,7 @@ For the color scheme, I wanted to go with something that related to the color sc
 
 - contains copyright message along with credits to the website.
 
-![Footer Screenshot](assets/docs/footer.PNG)
+![Footer Screenshot](docs/images/footer.PNG)
 
 ## Home Page 
 
@@ -54,8 +54,8 @@ For the color scheme, I wanted to go with something that related to the color sc
 
 - font color is easy to see and does not interfere with background color.
 
-![Home Page Screenshot](assets/docs/home-one.PNG)
-![Home Page Screenshot](assets/docs/home-two.PNG)
+![Home Page Screenshot](docs/images/home-one.PNG)
+![Home Page Screenshot](docs/images/home-two.PNG)
 
 ## Matchday Memories
 
@@ -65,30 +65,30 @@ For the color scheme, I wanted to go with something that related to the color sc
 
 - Uses images from the day of the events.
 
-![Matchday Memories Screenshot](assets/docs/matchday-memories-one.PNG)
-![Matchday Memories Screenshot](assets/docs/matchday-memories-two.PNG)
+![Matchday Memories Screenshot](docs/images/matchday-memories-one.PNG)
+![Matchday Memories Screenshot](docs/images/matchday-memories-two.PNG)
 
 ## The Gallery
 
  The Gallery page gives the user a visual tour of the what is inside and around the ground.
  As you can see i used a grid to display the gallery on desktop. On Tablets the grid maintains. However for mobile there is not grid and the images are in single file. 
 
-![Gallery Screenshot](assets/docs/gallery-one.PNG)
+![Gallery Screenshot](docs/images/gallery-one.PNG)
 
-![Gallery Screenshot](assets/docs/gallery-ipad.PNG)
+![Gallery Screenshot](docs/images/gallery-ipad.PNG)
 
-![Gallery Screenshot](assets/docs/gallery-mobile.PNG)
+![Gallery Screenshot](docs/images/gallery-mobile.PNG)
 
 The gallery also has a video link to showcase the atmosphere at a sold out event.
 
-![Gallery Screenshot](assets/docs/gallery-two.PNG)
+![Gallery Screenshot](docs/images/gallery-two.PNG)
 
 I applied a hover effect to the images on desktop, causing them to expand when hovered over and return to their original size when the cursor is moved away. 
 Here is the code i used to do so and what the images look like:
 
-![Gallery Screenshot](assets/docs/gallery-hover-code.PNG)
+![Gallery Screenshot](docs/images/gallery-hover-code.PNG)
 
-![Gallery Screenshot](assets/docs/gallery-hover-effect.png)
+![Gallery Screenshot](docs/images/gallery-hover-effect.png)
 
 ## Testing
 - I have confirm that this page works on different browsers: Chrome, Firefox and Safari.
@@ -103,34 +103,34 @@ Here is the code i used to do so and what the images look like:
 
 - No HTML errors were returned when passing through the W3C Validator.
 
-![HTML validator](assets/docs/html-validator.PNG)
+![HTML validator](docs/images/html-validator.PNG)
 
 - No CSS errors were returned when passing through the offical (jigsaw) validator.
 
-![CSS validator](assets/docs/css-validator.PNG)
+![CSS validator](docs/images/css-validator.PNG)
 
 ## Lighthouse
 
 ### Desktop lighthouse scores for each page:
 
-![Lighthouse Desktop Screenshot](assets/docs/desktop-lighthouse-home.PNG)
-![Lighthouse Desktop Screenshot](assets/docs/desktop-lighthouse-matchdaymems.PNG)
-![Lighthouse Desktop Screenshot](assets/docs/desktop-lighthouse-gallery.PNG)
+![Lighthouse Desktop Screenshot](docs/images/desktop-lighthouse-home.PNG)
+![Lighthouse Desktop Screenshot](docs/images/desktop-lighthouse-matchdaymems.PNG)
+![Lighthouse Desktop Screenshot](docs/images/desktop-lighthouse-gallery.PNG)
 
 ### Mobile lighthouse scores for each page:
 
-![Lighthouse Desktop Screenshot](assets/docs/mobile-lighthouse-home.PNG)
-![Lighthouse Desktop Screenshot](assets/docs/mobile-lightouse-matchdaymems.PNG)
-![Lighthouse Desktop Screenshot](assets/docs/mobile-lightouse-gallery.PNG)
+![Lighthouse Desktop Screenshot](docs/images/mobile-lighthouse-home.PNG)
+![Lighthouse Desktop Screenshot](docs/images/mobile-lightouse-matchdaymems.PNG)
+![Lighthouse Desktop Screenshot](docs/images/mobile-lightouse-gallery.PNG)
 
 As you can see my scores did not change much apart from the gallery page. This is due to the Youtube video link.
-However in incognito the best practices score is 100 suggesting that the cookies and google fonts is impacting the score. 
+However in incognito the best practices score is 100 suggesting that the cookies and Google API is impacting the score. As I have not touched on javascript yet this is something that is out of my control for now.   
 
-![Lighthouse Desktop Screenshot](assets/docs/incognito-gallery.PNG)
+![Lighthouse Desktop Screenshot](docs/images/incognito-gallery.PNG)
 
 The mobile scores for my site were all green and similar in score.
 
-![Lighthouse Desktop Screenshot](assets/docs/mobile-incognito.PNG)
+![Lighthouse Desktop Screenshot](docs/images/mobile-incognito.PNG)
 
 ## Bugs and Fixes
 

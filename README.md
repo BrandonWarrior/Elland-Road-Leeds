@@ -23,6 +23,8 @@ For the color scheme, I wanted to go with something that related to the color sc
 
 - The other navigation links are to the right: Home, Matchday Memories, Gallery, which links to different pages within the project.
 
+- For mobile devices I added a menu icon which when clicked will open a dropdown menu of the navigation links to save space on mobile screens. 
+
 - The navigation is in a google font with a background color of blue #0000FF that contrasts with the text color of yellow #FFFF00. 
 
 -  The navigation tells the name of the website and makes the different sections of infomation easy to find.  
@@ -42,7 +44,7 @@ For the color scheme, I wanted to go with something that related to the color sc
 
 - The social links uses clickable icons for each social media logo that links to each page in a seperate window. 
 
-- contains a copyright message along with credits to the website.
+- contains copyright message along with credits to the website.
 
 ![Footer Screenshot](assets/docs/footer.PNG)
 
@@ -68,13 +70,34 @@ For the color scheme, I wanted to go with something that related to the color sc
 
 ## The Gallery
 
-- The Gallery page gives the user a visual tour of the what is inside and around the ground.
+ The Gallery page gives the user a visual tour of the what is inside and around the ground.
+ As you can see i used a grid to display the gallery on desktop. On Tablets the grid maintains. However for mobile there is not grid and the images are in single file. 
 
 ![Gallery Screenshot](assets/docs/gallery-one.PNG)
 
-- Has a video link to showcase the atmosphere at a sold out event.
+![Gallery Screenshot](assets/docs/gallery-ipad.PNG)
+
+![Gallery Screenshot](assets/docs/gallery-mobile.PNG)
+
+The gallery also has a video link to showcase the atmosphere at a sold out event.
 
 ![Gallery Screenshot](assets/docs/gallery-two.PNG)
+
+I applied a hover effect to the images on desktop, causing them to expand when hovered over and return to their original size when the cursor is moved away. 
+Here is the code i used to do so and what the images look like:
+
+![Gallery Screenshot](assets/docs/gallery-hover-code.PNG)
+
+![Gallery Screenshot](assets/docs/gallery-hover-effect.png)
+
+## Testing
+- I have confirm that this page works on different browsers: Chrome, Firefox and Safari.
+
+- I have confirm that all external links and navigation works on all browsers.
+
+- i have confirm that the navigation and the content displayed on each page are readable and easy to understand. 
+
+- I have confirm that the  video link works. 
 
 ## Validator
 
@@ -85,10 +108,6 @@ For the color scheme, I wanted to go with something that related to the color sc
 - No CSS errors were returned when passing through the offical (jigsaw) validator.
 
 ![CSS validator](assets/docs/css-validator.PNG)
-### Testing
-- I have tested that this page works on different browsers: Chrome, Firefox and Safari.
-
-- I have tested that all external links and navigation works on all browsers.
 
 ## Lighthouse
 
@@ -104,13 +123,12 @@ For the color scheme, I wanted to go with something that related to the color sc
 ![Lighthouse Desktop Screenshot](assets/docs/mobile-lightouse-matchdaymems.PNG)
 ![Lighthouse Desktop Screenshot](assets/docs/mobile-lightouse-gallery.PNG)
 
-- As you can see my scores did not change much apart from the gallery page. This is due to the Youtube video link.
-
-- However in incognito the best practices score is 100 suggesting that the cookies and google fonts is impacting the score. 
+As you can see my scores did not change much apart from the gallery page. This is due to the Youtube video link.
+However in incognito the best practices score is 100 suggesting that the cookies and google fonts is impacting the score. 
 
 ![Lighthouse Desktop Screenshot](assets/docs/incognito-gallery.PNG)
 
-- The mobile scores for my site were all green and similar in score.
+The mobile scores for my site were all green and similar in score.
 
 ![Lighthouse Desktop Screenshot](assets/docs/mobile-incognito.PNG)
 
@@ -124,26 +142,17 @@ For the color scheme, I wanted to go with something that related to the color sc
 ### Bug 2 
 - Color not applying to social icons. 
 ### Fix
-Discovering a typo to the social-icon class meant that the styles were not applying. Once corrected the social-icons colors were applied. 
+- Discovered a typo to the social-icon class meant that the styles were not applying. Once corrected the social-icons colors were applied. 
 
 ### Bug 3 
 - Menu icon not appearing on mobile devices.
 ### Fix
-- Discovering not adding a closing label tag to the end of the opening label tag meant that the menu icon was not appearing. By adding the closing label tag meant that the menu icon was working on mobile devices.
+- Discovered not adding a closing label tag to the end of the opening label tag meant that the menu icon was not appearing. By adding the closing label tag meant that the menu icon was working on mobile devices.
 
 ### Bug 4 
-Poor Lighthouse performance scores.
+- Poor Lighthouse performance scores.
 ### Fix
-Due to images being too big I resized them using https://redketchup.io/image-resizer and changed them from a JPEG file to a webp file. After this I then compressed the images using https://tinypng.com/. This boosted my lighthouse performance scores on Desktop and mobile devices.
-
-## Testing
-- I have confirmed that this page works on different browsers: Chrome, Firefox and Safari.
-
-- I have confirmed that all external links and navigation works on all browsers.
-
-- i have confirmed that the navigation and the content displayed on each page are readable and easy to understand. 
-
-- I have confirmed that the  video link works. 
+- Due to images being too big I resized them using https://redketchup.io/image-resizer and changed them from a JPEG file to a webp file. After this I then compressed the images using https://tinypng.com/. This boosted my lighthouse performance scores on Desktop and mobile devices.
 
 ## Deployment 
 I deployed the page to GitHub Pages using the following steps:
@@ -153,7 +162,7 @@ I deployed the page to GitHub Pages using the following steps:
 3. In the Source section, choose the Main branch from the drop-down menu and click Save.
 4.  A confirmation message will appear, indicating a successful deployment to GitHub Pages and providing the live URL.
 
-- You can find the live site via the following URL - https://brandonwarrior.github.io/Elland-Road-Leeds/
+You can find the live site via the following URL: https://brandonwarrior.github.io/Elland-Road-Leeds
 ## Credits
 
 #### Images Credit:
